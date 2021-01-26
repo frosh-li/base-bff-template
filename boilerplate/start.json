@@ -1,0 +1,33 @@
+{
+  "apps": [
+      {
+          "name": "{{name}}",
+          "cwd": "./",
+          "script": "./server.js",
+          "env": {
+              "NODE_ENV": "default"
+          },
+          "env_test": {
+              "NODE_ENV": "test"
+          },
+          "env_preali": {
+              "NODE_ENV": "pre"
+          },
+          "env_pre": {
+              "NODE_ENV": "pre"
+          },
+          "env_prd": {
+              "NODE_ENV": "prd"
+          },
+          "watch": false,
+          "ignore_watch": [
+              "node_modules",
+              "logs",
+              "sessions",
+              ".git",
+              ".gitignore"
+          ],
+          "exec_mode": "fork_mode"
+      }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "{{name}}",
+  "version": "1.0.0",
+  "private": true,
+  "egg": {
+    "framework": "bw-bff-framework"
+  },
+  "dependencies": {
+    "bw-bff-framework": "^1.0.5",
+    "egg-cluster": "^1.26.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.3.5",
+    "egg-mock": "^3.13.1"
+  },
+  "scripts": {
+    "dev": "egg-bin dev",
+    "test": "egg-bin test",
+    "cov": "egg-bin cov"
+  }
+}
